@@ -1,7 +1,6 @@
-# ember2
+# Ember 2
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+![Ember 2](icons/ember2-cover.png?raw=true "Ember 2")
 
 ## Prerequisites
 
