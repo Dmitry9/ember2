@@ -12,6 +12,10 @@ Router.map(function() {
     // this.route('child');
   });
   this.route('parent.child', { path: 'parent/child' });
+  this.route('people', function() {
+    this.route('show', {path: '/:id'});
+  });
+  this.route('elseif');
 });
 
 export default Router;

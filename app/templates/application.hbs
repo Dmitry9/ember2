@@ -5,22 +5,10 @@
 custom-link
 {{/link-to}}
 {{link-to 'Parent Route' 'parent'}}
+{{link-to 'People' 'people'}}
+{{link-to 'Elseif' 'elseif'}}
 {{outlet}}
 
 
-{{#if unless}}
-	<h2 id="title">YOU CAN SEE MY NAME: {{name}}</h2>
-{{else}}
-	<h1 id="title">ELSE STATEMENT: {{name}}</h1>
-{{/if}}
-
-<button {{action 'toggleName'}}>TOGGLE NAME</button>
-<button {{action 'increment'}}>ADD CLICKS</button>
-{{numClicks}} 
-{{#unless showName}}
-	<h2 id="title">YOU CAN SEE MY NAME: {{name}}</h2>
-{{else}}
-	<h1 id="title">ELSE STATEMENT: {{name}}</h1>
-{{/unless}}
 
 

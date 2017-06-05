@@ -1,0 +1,17 @@
+<hr>
+<br>
+<button {{action 'toggleName'}}>TOGGLE NAME</button>
+<button {{action 'increment'}}>ADD CLICKS {{numClicks}}</button>
+{{#if showName}}
+	<h2 id="title">YOU CAN SEE MY NAME: {{name}}</h2>
+{{else}}
+	<h1 id="title">ELSE STATEMENT: {{name}}</h1>
+{{/if}}
+
+{{#unless showName}}
+	<h2 id="title">YOU CAN SEE MY NAME: {{name}}</h2>
+{{else}}
+	<h1 id="title">ELSE STATEMENT: {{name}}</h1>
+{{/unless}}
+
+{{outlet}}

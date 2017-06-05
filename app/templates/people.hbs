@@ -1,0 +1,10 @@
+<h1 style="color: brown; background: lightblue">People</h1>
+
+<ul>
+{{#each model as |human|}}
+	<li>{{#link-to 'people.show' human}}{{human.name}}{{/link-to}}</li>
+{{/each}}
+</ul>
+
+<img src="https://www.durrell.org/wildlife/wp-content/themes/wc-durell/global-index/images/icon-empowering.png">
+{{outlet}}
